@@ -1,0 +1,23 @@
+ ¿Qué es lambda?
+Una función lambda en Python es una función corta que se define en una sola línea. La sintaxis básica es:
+
+lambda argumentos: expresión
+
+Por ejemplo:
+
+lambda n : np.log(n)
+
+
+Esto es una función que toma un número n y devuelve np.log(n) (logaritmo natural de n).
+
+ ¿Qué hace map()?
+map(función, secuencia) aplica una función dada a cada elemento de una secuencia (lista, tupla, etc.).
+
+En tu caso:
+
+map(lambda n: np.log(n), NLinear)
+
+
+LogN = [log(1), log(2), log(3), log(4), ..., log(24)]
+
+
